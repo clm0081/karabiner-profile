@@ -2,7 +2,9 @@
 
 自定义的键盘方案。
 
+通过链接 `karabiner://karabiner/assets/complex_modifications/import?url=` 可以直接导入到 Karabiner-Elements 的 complex_modifications 模块当中
 
+[点击导入](karabiner://karabiner/assets/complex_modifications/import?url=https://git.flyingrome.net:18443/roman/karabiner-profile/raw/master/RomansProfile.json)
 
 ##Update log
   
