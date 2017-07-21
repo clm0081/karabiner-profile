@@ -4,7 +4,7 @@
 
 通过链接 `karabiner://karabiner/assets/complex_modifications/import?url=` 可以直接导入到 Karabiner-Elements 的 complex_modifications 模块当中
 
-[点击导入](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/clm0081/karabiner-profile/master/RomansProfile.json)
+[点击导入](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/clm0081/karabiner-profile/master/RomansProfile.json) 
 
 ## Update log
   
