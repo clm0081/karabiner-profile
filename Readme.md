@@ -7,7 +7,12 @@
 [点击导入](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/clm0081/karabiner-profile/master/RomansProfile.json)
 
 ## Update log
-  
+ 
+##### Version 1.1: 
+
+* 修改Fn+P为Control+P（只在securecrt中）。
+* 修改Fn+Q为Control+Q（只在securecrt中）。
+
 ##### Version 1.0: 
 
 * 修改Fn+字母为Command+字母，禁用了Fn+Q快捷键。
