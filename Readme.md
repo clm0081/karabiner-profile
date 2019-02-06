@@ -8,6 +8,10 @@
 
 ## Update log
  
+##### Version 1.3: 
+
+* 取消了Fn+C的的设置（只在securecrt中）。
+
 ##### Version 1.2: 
 
 * 修改Fn+A为Control+A（只在securecrt中）。
