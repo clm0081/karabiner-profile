@@ -171,7 +171,7 @@
       ]
     },
     {
-      "description": "Change Fn+C,P,Q to Control+C,P,Q in ITerm",
+      "description": "Change Fn+C,P,Q,A,Z,R to Control+C,P,Q,A,Z,R in ITerm",
       "manipulators": [
         {
          "conditions": [
@@ -198,6 +198,68 @@
           "to": [
             {
               "key_code": "c",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        },
+        {
+         "conditions": [
+          {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                  "^com\\.googlecode\\.iterm2$",
+                  "^com\\.vandyke\\.SecureCRT$"
+              ]
+          }
+         ],
+          "type": "basic",
+          "from": {
+            "key_code": "a",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "a",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ]
+        },
+        {
+         "conditions": [
+          {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                  "^com\\.googlecode\\.iterm2$",
+                  "^com\\.vandyke\\.SecureCRT$"
+              ]
+          }
+         ],
+          "type": "basic",
+          "from": {
+            "key_code": "z",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "z",
               "modifiers": [
                 "left_control"
               ]
