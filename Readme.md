@@ -8,6 +8,11 @@
 
 ## Update log
  
+##### Version 1.2: 
+
+* 修改Fn+A为Control+A（只在securecrt中）。
+* 修改Fn+Z为Control+Z（只在securecrt中）。
+
 ##### Version 1.1: 
 
 * 修改Fn+P为Control+P（只在securecrt中）。
