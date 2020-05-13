@@ -171,6 +171,68 @@
       ]
     },
     {
+      "description": "Change Fn,Control,Option in Teamviewer",
+      "manipulators": [
+        {
+         "conditions": [
+          {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                  "^com.\\teamviewer.\\TeamViewer$"
+              ]
+          }
+         ],
+          "type": "basic",
+          "from": {
+            "key_code": "fn",
+          },
+          "to": [
+            {
+              "key_code": "left_control",	
+            }
+          ]
+        },
+        {
+         "conditions": [
+          {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                  "^com.\\teamviewer.\\TeamViewer$"
+              ]
+          }
+         ],
+          "type": "basic",
+          "from": {
+            "key_code": "left_command",
+          },
+          "to": [
+            {
+              "key_code": "left_option",	
+            }
+          ]
+        },
+        {
+         "conditions": [
+          {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                  "^com.\\teamviewer.\\TeamViewer$"
+              ]
+          }
+         ],
+          "type": "basic",
+          "from": {
+            "key_code": "left_option",
+          },
+          "to": [
+            {
+              "key_code": "left_command",	
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Change Fn+C,P,Q,A,Z,R to Control+C,P,Q,A,Z,R in ITerm",
       "manipulators": [
         {
