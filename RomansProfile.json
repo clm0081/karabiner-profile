@@ -171,14 +171,15 @@
       ]
     },
     {
-      "description": "Change Fn,Control,Option in Teamviewer",
+      "description": "Change Fn,Control,Option in Teamviewer and JI_Cloud",
       "manipulators": [
         {
          "conditions": [
           {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
-                  "^com\\.teamviewer\\.TeamViewer$"
+                  "^com\\.teamviewer\\.TeamViewer$",
+                  "^PT\\.JiCloudComputer$"
               ]
           }
          ],
@@ -197,7 +198,8 @@
           {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
-                  "^com\\.teamviewer\\.TeamViewer$"
+                  "^com\\.teamviewer\\.TeamViewer$",
+                  "^PT\\.JiCloudComputer$"
               ]
           }
          ],
@@ -216,7 +218,8 @@
           {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
-                  "^com\\.teamviewer\\.TeamViewer$"
+                  "^com\\.teamviewer\\.TeamViewer$",
+                  "^PT\\.JiCloudComputer$"
               ]
           }
          ],
@@ -226,7 +229,7 @@
           },
           "to": [
             {
-              "key_code": "fn"
+              "key_code": "left_control"
             }
           ]
         }

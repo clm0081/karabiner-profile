@@ -8,6 +8,10 @@
 
 ## Update log
  
+##### Version 1.4: 
+
+* 修改Fn，Control，Option，Command对应的键位（只在Teamviewer和极云客户端中）。
+ 
 ##### Version 1.3: 
 
 * 修改Fn，Control，Option，Command对应的键位（只在Teamviewer中）。
