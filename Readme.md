@@ -8,6 +8,10 @@
 
 ## Update log
  
+##### Version 1.3: 
+
+* 修改Fn，Control，Option，Command对应的键位（只在Teamviewer中）。
+
 ##### Version 1.2: 
 
 * 修改Fn+A为Control+A（只在securecrt中）。
