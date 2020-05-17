@@ -171,7 +171,7 @@
       ]
     },
     {
-      "description": "Change Fn,Control,Option in Teamviewer and JI_Cloud",
+      "description": "Change Fn,Control,Option in Teamviewer and JICloud and JumpDesktop",
       "manipulators": [
         {
          "conditions": [
@@ -179,7 +179,8 @@
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                   "^com\\.teamviewer\\.TeamViewer$",
-                  "^PT\\.JiCloudComputer$"
+                  "^PT\\.JiCloudComputer$",
+                  "^com\\.p5sys\\.jump\\.mac\\.viewer$"
               ]
           }
          ],
@@ -199,7 +200,8 @@
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                   "^com\\.teamviewer\\.TeamViewer$",
-                  "^PT\\.JiCloudComputer$"
+                  "^PT\\.JiCloudComputer$",
+                  "^com\\.p5sys\\.jump\\.mac\\.viewer$"
               ]
           }
          ],
@@ -219,7 +221,8 @@
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                   "^com\\.teamviewer\\.TeamViewer$",
-                  "^PT\\.JiCloudComputer$"
+                  "^PT\\.JiCloudComputer$",
+                  "^com\\.p5sys\\.jump\\.mac\\.viewer$"
               ]
           }
          ],
