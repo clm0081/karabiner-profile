@@ -8,6 +8,11 @@
 
 ## Update log
  
+##### Version 1.6: 
+
+* 让远程桌面中的windows系统可以正常切换输入法（使alt+shift在远程桌面中改键不生效）。
+* 修改Fn，Control，Option，Command对应的键位（只在Teamviewer、极云客户端、向日葵和JumpDesktop中）。
+ 
 ##### Version 1.5: 
 
 * 修改Fn，Control，Option，Command对应的键位（只在Teamviewer、极云客户端和JumpDesktop中）。
