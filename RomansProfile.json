@@ -191,6 +191,17 @@
           ]
         },
         {
+           "conditions": [
+          {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                  "^com\\.teamviewer\\.TeamViewer$",
+                  "^PT\\.JiCloudComputer$",
+                  "^com\\.oray\\.remote$",
+                  "^com\\.p5sys\\.jump\\.mac\\.viewer$"
+              ]
+          }
+          ],
           "type": "basic",
           "from": {
             "key_code": "tab",

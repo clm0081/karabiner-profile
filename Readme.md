@@ -8,6 +8,10 @@
 
 ## Update log
  
+##### Version 1.6.1: 
+
+* 让远程桌面中的windows系统可以正常使用 alt+tab 切换应用。
+ 
 ##### Version 1.6: 
 
 * 让远程桌面中的windows系统可以正常切换输入法（使alt+shift在远程桌面中改键不生效）。
